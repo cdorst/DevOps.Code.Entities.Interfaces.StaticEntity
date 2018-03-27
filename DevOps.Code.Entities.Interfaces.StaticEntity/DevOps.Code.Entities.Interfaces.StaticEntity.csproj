@@ -15,7 +15,7 @@
     <PackageLicenseUrl>https://github.com/cdorst/DevOps.Code.Entities.Interfaces.StaticEntity/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/cdorst/DevOps.Code.Entities.Interfaces.StaticEntity</PackageProjectUrl>
     <RepositoryUrl>https://github.com/cdorst/DevOps.Code.Entities.Interfaces.StaticEntity</RepositoryUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
