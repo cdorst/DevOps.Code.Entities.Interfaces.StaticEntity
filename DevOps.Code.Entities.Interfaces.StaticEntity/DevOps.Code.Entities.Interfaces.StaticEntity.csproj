@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>cdorst</Authors>
+    <Copyright>Copyright © Christopher Dorst</Copyright>
+    <Description>Common interface for code-generated uneditable entity types</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://cdorst-dev.azureedge.net/nuget/package-icon-64.png</PackageIconUrl>
+    <PackageId>CDorst.DevOps.Code.Entities.Interfaces.StaticEntity</PackageId>
+    <PackageLicenseUrl>https://github.com/cdorst/DevOps.Code.Entities.Interfaces.StaticEntity/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/cdorst/DevOps.Code.Entities.Interfaces.StaticEntity</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cdorst/DevOps.Code.Entities.Interfaces.StaticEntity</RepositoryUrl>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDorst.DevOps.Code.Entities.Interfaces.Entity" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
