@@ -9,6 +9,8 @@ namespace DevOps.Code.Entities.Interfaces.StaticEntity
 {
     /// <summary>Common interface for code-generated uneditable entity types</summary>
     public interface IStaticEntity<TEntity, TKey>
+        where TEntity : class
+        where TKey : struct
     {
         /// <summary>Returns an expression that EntityFrameworkCore uses to set a unique index on this entity type</summary>
         Expression<Func<TEntity, object>> GetUniqueIndex();
