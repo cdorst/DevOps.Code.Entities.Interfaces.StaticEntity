@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 namespace DevOps.Code.Entities.Interfaces.StaticEntity
 {
     /// <summary>Common interface for code-generated uneditable entity types</summary>
-    public interface IStaticEntity<TEntity, TKey>
+    public interface IStaticEntity<TEntity, TKey> : IEntity<TKey>
         where TEntity : class
         where TKey : struct
     {
